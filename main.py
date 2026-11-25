@@ -13,8 +13,8 @@ from pathlib import Path
 def build_commit_line() -> str:
     """Compose the single commit message for this entry."""
     subject = "fix:"
-    confession = "I debugged myself for six hours"
-    punchline = "and the bug was a typo I made while debugging myself"
+    confession = "reverted my brilliant 3AM self-optimization"
+    punchline = "that replaced the database with a very confident JSON comment"
     return " ".join([subject, confession, punchline])
 
 
